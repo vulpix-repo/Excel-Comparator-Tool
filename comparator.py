@@ -31,8 +31,8 @@ def perform_lookup(file_column_map):
         else:
             # fuzzy matching
             # if none, don't replace
-            # if score < 80, don't replace
-            # if score > 80, match 
+            # if score < 85, don't replace
+            # if score > 85, match 
             current_df = dataframe_map[files[i]]
 
             for idx, row in current_df.iterrows():
