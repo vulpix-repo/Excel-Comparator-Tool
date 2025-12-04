@@ -134,4 +134,3 @@ def compare(frame):
 
     except Exception as e:
         messagebox.showerror('Error', str(e))
-
